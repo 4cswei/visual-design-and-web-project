@@ -1,0 +1,85 @@
+.container-AboutSection {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+  text-align: left;
+  width: 70%;
+}
+
+.aboutLeft {
+  flex-basis: 60%;
+}
+.aboutRight {
+  flex-basis: 40%;
+}
+
+.portrait {
+  display: block;
+  width: 90%;
+  height: auto;
+  float: right;
+}
+
+.heading {
+  text-align: left;
+}
+
+.para {
+  margin-top: 2rem;
+  margin-left: 0;
+  padding-bottom: 2rem;
+}
+
+.aboutLeft .heading {
+  text-transform: uppercase;
+}
+
+.aboutSection-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1100px) {
+  .aboutSection-btn .button {
+    padding: 0.5rem 2.3rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .aboutSection-btn .button {
+    padding: 0.4rem 1.9rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-AboutSection {
+    flex-direction: column;
+  }
+  .aboutLeft,
+  .aboutRight {
+    width: 100%;
+  }
+  .aboutRight {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+  .aboutSection-btn {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .aboutSection-btn .button {
+    padding: 0.4rem 2rem;
+    font-size: 1.2rem;
+  }
+  .portrait {
+    max-width: 200px;
+  }
+}

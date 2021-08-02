@@ -1,0 +1,16 @@
+.mockupItem-img {
+  width: 100%;
+}
+
+.mockupItem-desc {
+  font-size: 1.5rem;
+  color: #594c49;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .mockupItem-desc {
+    font-size: 1.2rem;
+  }
+}

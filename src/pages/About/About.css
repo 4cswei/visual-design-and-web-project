@@ -1,0 +1,55 @@
+.container-About {
+  padding-top: 4rem;
+}
+
+.bio-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 5rem;
+  text-align: left;
+  width: 70%;
+}
+
+.bio-left {
+  flex: 3;
+}
+
+.bio-right {
+  flex: 2;
+}
+
+.bio-left .heading {
+  margin-top: 0;
+}
+
+.about-info-items {
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 70%;
+}
+
+.about-info-item {
+  padding-bottom: 5.5rem;
+}
+
+@media (max-width: 768px) {
+  .bio-section {
+    flex-direction: column;
+  }
+  .bio-left,
+  .bio-right {
+    width: 100%;
+  }
+  .bio-right {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+  .portrait {
+    max-width: 200px;
+  }
+}

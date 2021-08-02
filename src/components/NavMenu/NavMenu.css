@@ -1,0 +1,101 @@
+.nav-bar {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 0;
+  background-color: white;
+}
+
+.nav-bar ul {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  padding-inline-start: 0;
+}
+.nav-bar ul li {
+  display: inline-block; /* horizontal */
+}
+
+.nav-bar ul li a {
+  padding: 1rem 2rem;
+  color: #594c49;
+  text-decoration: none; /* remove underline */
+  font-size: 1.7rem;
+}
+
+.active {
+  font-weight: bold;
+  /* make the text extra bold */
+  text-shadow: 0px 1px, 1px 0px, 1px 1px currentColor;
+  letter-spacing: 1px;
+}
+
+.nav-bar ul li a:not(.active):hover {
+  background-color: rgb(245, 236, 219, 0.6);
+}
+
+.nav-menu {
+  position: absolute;
+  right: 1rem;
+  top: 2rem;
+  width: 3.5rem;
+  cursor: pointer;
+  outline: none;
+  /* no menu icons when in big screen */
+  display: none;
+  color: #594c49;
+  font-size: 2rem;
+}
+/* .nav-menu * {
+  pointer-events: none;
+} */
+.nav-close {
+  display: none;
+  color: #594c49;
+  font-size: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .nav-bar ul li a {
+    font-size: 1.5rem;
+  }
+}
+/* Screen size 768px and less */
+@media (max-width: 768px) {
+  .nav-menu {
+    display: block;
+  }
+  .nav-items {
+    padding: 2rem;
+    width: 90%;
+    max-width: 300px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #f5ecdb;
+    transition: 0.3s ease transform;
+  }
+  .nav-close {
+    display: block;
+    width: 3rem;
+    margin: 0 0 0 auto;
+    cursor: pointer;
+  }
+  /* .nav-items * {
+    pointer-events: none;
+  } */
+  .nav-bar ul li {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  /* hide/close the nav items  */
+  .hide-item {
+    transform: translateX(100%);
+  }
+  .nav-bar ul li a {
+    font-size: 1.4rem;
+  }
+}

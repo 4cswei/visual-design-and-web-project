@@ -1,0 +1,39 @@
+.container-images {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: auto;
+  padding-bottom: 2rem;
+  text-align: left;
+  gap: 2rem;
+}
+.imageItem-right {
+  flex-basis: 30%;
+}
+.imageItem-left {
+  flex-basis: 70%;
+}
+
+.imageItem-img img {
+  width: 100%;
+}
+
+.imageItem-title {
+  font-size: 1.5rem;
+  color: #594c49;
+}
+
+.imageItem-desc .para {
+  padding: 0;
+  max-width: 100%;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .container-images {
+    flex-direction: column;
+  }
+  .imageItem-title {
+    font-size: 1.2rem;
+  }
+}

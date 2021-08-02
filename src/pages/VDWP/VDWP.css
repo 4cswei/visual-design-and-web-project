@@ -1,0 +1,72 @@
+.container-VDWP {
+  margin-top: 6rem;
+}
+
+.imagedata-items {
+  margin: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 5rem;
+  text-align: left;
+  width: 90%;
+  gap: 2rem;
+}
+
+.imagedata-items .para {
+  max-width: 100%;
+}
+
+.imagedata-title,
+.mockups-title,
+.colour-theme {
+  font-size: 1.5rem;
+  color: #594c49;
+  padding-top: 1rem;
+}
+
+.image-credit .para {
+  font-size: 0.9rem;
+}
+
+.mockups {
+  margin: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 5rem;
+  text-align: left;
+  width: 90%;
+  gap: 2rem;
+}
+
+.mockups-desc .para {
+  max-width: 100%;
+}
+
+.colour-theme {
+  text-align: center;
+}
+
+.colours {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+.mockup-items {
+  margin: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .imagedata-items {
+    flex-direction: column;
+  }
+  .imagedata-title,
+  .mockups-title,
+  .colour-theme {
+    font-size: 1.2rem;
+  }
+}

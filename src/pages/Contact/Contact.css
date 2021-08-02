@@ -1,0 +1,32 @@
+.container-Contact {
+  padding-top: 8rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: auto;
+  padding-bottom: 5rem;
+  text-align: left;
+  width: 70%;
+  gap: 2rem;
+}
+
+.cs-left,
+.cs-right {
+  flex: 1;
+  width: 100%;
+}
+
+.cs-right {
+  box-sizing: border-box;
+}
+
+.leaflet-container {
+  margin: 2.5rem 0;
+  z-index: 0;
+}
+
+@media (max-width: 768px) {
+  .container-Contact {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,13 @@
+.para {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #594c49;
+}
+
+@media (max-width: 768px) {
+  .para {
+    font-size: 1.1rem;
+  }
+}

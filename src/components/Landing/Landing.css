@@ -1,0 +1,59 @@
+.landing {
+  /* width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/images/logo_150.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0; */
+
+  /* height: 100vh; */
+  min-height: 700px;
+  padding-top: 6rem;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.greeting {
+  font-size: 1.4rem;
+  margin-bottom: -4rem;
+  position: relative;
+  color: #594c49;
+}
+
+.greeting-name {
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.logo {
+  /* max-width: 900px; */
+  width: 100%;
+  /* height: 100vh; */
+  margin: 0 auto;
+}
+
+/* Screen size 768px and less */
+@media (max-width: 768px) {
+  .landing {
+    padding-top: 0;
+  }
+  .greeting {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  .greeting-name {
+    font-size: 1.7rem;
+  }
+  .logo img {
+    /* max-width: 900px; */
+    max-width: 100%;
+  }
+}

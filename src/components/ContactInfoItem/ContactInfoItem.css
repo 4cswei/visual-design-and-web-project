@@ -1,0 +1,23 @@
+.container-CII {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contactInfo-icon {
+  color: #594c49;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.contactInfo-text .para {
+  margin: 0;
+  padding: 0.7rem 0;
+}
+
+@media (max-width: 768px) {
+  .contactInfo-icon {
+    font-size: 1.1rem;
+  }
+}

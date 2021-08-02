@@ -1,0 +1,14 @@
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  text-transform: capitalize;
+  color: #594c49;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 1.7rem;
+  }
+}

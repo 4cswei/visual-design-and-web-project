@@ -1,0 +1,52 @@
+.container-AII {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.container-AII .para {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.items {
+  display: flex;
+  gap: 3rem;
+  position: absolute;
+  left: 15rem;
+}
+
+.items .para {
+  font-size: 1.2rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .container-AII {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
+  .items {
+    position: initial;
+    gap: 1.5rem;
+  }
+  .title .para {
+    padding: 0;
+    margin: 0;
+  }
+  .items .para {
+    margin: 0;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+  }
+}
