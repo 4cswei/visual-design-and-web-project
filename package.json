@@ -18,7 +18,7 @@
     "uuid": "^8.3.2",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://github.com/4cswei/visual-design-and-web-project.git",
+  "homepage": "https://4cswei.github.io/visual-design-and-web-project/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
