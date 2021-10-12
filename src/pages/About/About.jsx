@@ -25,7 +25,9 @@ function About() {
               environment and of mentoring junior user researchers.
             </PText>
             <Button
-              btnLink="https://www.linkedin.com/in/chen-shuang-wei"
+              btnLink={{
+                pathname: "https://www.linkedin.com/in/chen-shuang-wei",
+              }}
               btnText="LinkedIn"
             />
           </div>
