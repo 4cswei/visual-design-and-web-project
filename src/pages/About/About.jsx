@@ -24,7 +24,10 @@ function About() {
               efficiently and effectively at the same time in a fast-paced work
               environment and of mentoring junior user researchers.
             </PText>
-            <Button btnLink="#" btnText="LinkedIn" />
+            <Button
+              btnLink="https://www.linkedin.com/in/chen-shuang-wei"
+              btnText="LinkedIn"
+            />
           </div>
           <div className="bio-right">
             <img src={Portrait} alt="portrait" className="portrait" />
