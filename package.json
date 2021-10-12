@@ -18,7 +18,8 @@
     "uuid": "^8.3.2",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://4cswei.github.io/visual-design-and-web-project/",
+  "homepage": "https://congenial-telegram-0caba445.pages.github.io/",
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
